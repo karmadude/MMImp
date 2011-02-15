@@ -1,0 +1,24 @@
+MMImp
+
+VUnite Media
+http://vunite.com
+
+Python CLI for importing multiple sql files into MySQL
+
+Config:
+
+Edit mmimp.py file and update the following settings:
+
+mysqlPath = '/usr/bin/mysql'
+mysqlHost = 'localhost'
+mysqlUser = 'root'
+mysqlPassword = '' 
+
+Make mmimp.py executable:
+chmod +x mmimp.py
+
+Usage:
+
+./mmimp.py -p /path/to/dir/with/sql/files -d databaseName
+
+./mmimp.py -p ~/path/to/dir/with/sql/files -d databaseName
